@@ -36,13 +36,13 @@ class Search extends Component {
                             <h1 className="display-4 text-center">
                                 <i className="fas fa-music"></i>Szukaj piosenki
                             </h1>
-                            <p className="lead text-center">Pobierz tekst dla dowolnej piosenki
+                            <p className="lead text-center">Pobierz tekst dla dowolnej piosenki test
                             </p>
                             <form onSubmit={this.findTrack.bind(this, dispatch)}>
                                 <div className="form-group">
                                     <input type="text" className="form-control form-control-lg" placeholder="Tytuł piosenki..." name="trackTitle"
                                         value={this.state.trackTitle} onChange={this.onChange} />
-                                </div>
+                              </div>
                                 <button className="btn btn-primary btn-lg btn-block mb-5" type="submit">Pobierz Tekst Piosenki</button>
                             </form>
                         </div>
